@@ -1,0 +1,12 @@
+<div role="presentation" class="dropdown">
+    <a href="#" class="dropdown-toggle btn btn-md btn-primary" id="drop4" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+        {{ 'Surveys' | translate }} <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu" id="menu1" aria-labelledby="drop4">
+        <li ng-repeat="survey in surveys">
+            <a href="#" ng-click="select(survey)">
+                {{ survey[nameField] | translate }}
+            </a>
+        </li>
+    </ul>
+</div>

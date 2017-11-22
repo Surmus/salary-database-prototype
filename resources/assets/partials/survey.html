@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="page-header">
+        <h1><translate>Survey salary averages</translate></h1>
+
+        <a class="btn btn-md btn-special" href="/">{{ 'Back' | translate }}</a>
+    </div>
+
+    <surveys selected-survey="selected" surveys="surveys"></surveys>
+    <br />
+    <div class="panel panel-default">
+        <div class="panel-heading"><translate>Salaries average</translate></div>
+        <div class="panel-body">
+            {{ average ? average : 0 }}
+        </div>
+    </div>
+</div>
+
+

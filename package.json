@@ -1,0 +1,29 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch-poll": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --watch-poll --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "hot": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "production": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+    },
+    "devDependencies": {
+        "axios": "^0.16.2",
+        "cross-env": "^5.0.1",
+        "laravel-mix": "^1.0",
+        "lodash": "^4.17.4",
+        "angular": "^1.6.6",
+        "angular-route": "^1.6.6",
+        "angular-animate": "^1.6.6",
+        "angular-sanitize": "^1.6.6",
+        "angular-resource": "^1.6.6",
+        "angular-translate": "^2.16.0",
+        "angular-translate-loader-static-files": "^2.16.0",
+        "bootstrap-less": "^3.3.8",
+        "font-awesome": "^4.7.0",
+        "less-loader": "^4.0.5",
+        "less": "^2.7.3",
+        "jquery": "^3.2.1",
+        "amcharts3": "^3.21.2"
+    }
+}
